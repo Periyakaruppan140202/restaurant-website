@@ -1,0 +1,374 @@
+body {
+	background: url("../images/wood-2045379_1920.jpg");
+}
+
+/* Start of Header*/
+.row {
+	width: 100%;
+}
+.navbar {
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid black
+}
+
+.main-logo {
+	margin: 10px;
+}
+.navbar-brand {
+	float: left;
+	height: auto; 
+
+}
+
+.pull-left {
+	float: left;
+}
+.navbar-brand h1 {
+	color: darkgreen;
+	margin-top: 0px;
+}
+.navbar-brand span {
+	color: black;
+}
+.veg-icon {
+	margin-left: 10px;
+}
+.navbar-nav {
+	float: right;
+}
+.tel {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: right;
+	font-size:2em;
+	padding:2px;
+	border: 2px solid black;
+	color: #333333;
+	font-weight: bold;
+}
+a:hover >.tel {
+		color: red;
+	}
+
+.navbar-default .navbar-nav>li>a {
+	color: #333333;
+	font-weight: bold;
+}
+
+/* End of Header*/
+
+
+/* Start of main content*/
+
+.subheading {
+	margin-top: 30px;
+	text-align: center;
+}
+.subheading h1 {
+	color: white;
+}
+.container .jumbotron {
+    padding: 0px;
+    margin: 20px auto 50px auto;
+    border: 2px solid white;
+}
+#menu-tile,#hotel-tile,#map-tile {
+	float: left;
+	width: 100%;
+	height:190px;
+	margin: 20px auto 20px;
+	border: 2px solid black;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+}
+
+#menu-tile span,#hotel-tile span,#map-tile span {
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	padding: 2px;
+}
+a:hover >#menu-tile,a:hover >#hotel-tile,a:hover >#map-tile {
+	border: 2px solid white;
+}
+a:active >#menu-tile,a:active >#hotel-tile {
+  	padding: 10px;
+  	box-shadow: 5px 10px white;
+}
+/* End of main content*/
+
+
+/* Start of Footer*/
+
+#foot {
+	background-color: white;
+	opacity: 0.8;
+	padding: 20px;
+	margin-top: 30px;
+}
+.hours,.address,.contact {
+	width: 100%;
+	text-align:center;
+	padding: 20px;
+}
+.hours span,.address span,.contact span {
+	font-size:1.5em;
+	font-weight: bold;
+} 
+hr {
+	display: block;
+	height: 0px;
+	width: 50%;
+	font-weight: bold;
+	border-top: 2px solid black;
+}
+
+.copyright {
+	color: black;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/*End of Footer*/
+
+
+/*Start of Menu Categories*/
+
+.menu-categories {
+	float: left;
+	width: 100%;
+	height: 115px;
+	margin: 20px auto 20px;
+	border: 2px solid black;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+}
+
+.menu-categories span {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	padding: 2px;
+}
+a:active >.menu-categories {
+  	padding: 10px;
+  	box-shadow: 5px 10px white;
+}
+a:hover >.menu-categories {
+	border: 2px solid white;
+}
+/* End of Menu Categories*/
+
+
+
+/*Start of Our Services*/
+.our-services {
+	float: left;
+	width: 100%;
+	height: 280px;
+	margin: 20px auto 20px;
+	border: 2px solid black;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+}
+.our-services span {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	padding: 2px;
+}
+a:active >.our-services {
+  	padding: 10px;
+  	box-shadow: 5px 10px white;
+}
+a:hover >.our-services {
+	border: 2px solid white;
+}
+/*End of Our Services*/
+
+/*Page Under Construction*/
+.underconstruction {
+	margin: -20px 0 -30px 0;
+}
+
+/*Start of Gallery*/
+.gallery {
+	float: left;
+	width: 100%;
+	height: 188px;
+	margin: 20px auto 20px;
+	border: 2px solid white;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+}
+
+/*End of Gallery*/
+
+
+
+
+/*Start of About us*/
+.about-us {
+	margin: 20px auto 40px auto;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.para {
+	text-align: justify;
+	font-size: 2em;
+	font-family: "Lobster","Arial","Sans";
+	padding: 20px;
+	width:90%;
+	margin: 50px auto 50px auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.god {
+	border: 2px solid black;
+}
+/*End of About Us*/
+
+
+
+
+@media (max-width: 767px) {
+	.navbar-nav {
+		float: none;
+	}
+	#header-nav {
+		height: auto;
+	}
+	.navbar-brand h1 {
+		font-size: 1.5em;
+	}
+	button.navbar-toggle {
+	clear:both;
+	margin-top: -40px;
+	}
+	.dropdown {
+	text-align: center;
+	}
+	.phonetel {
+		text-align: center;
+		width: 80%;
+		background-color: white;
+		opacity: 0.8;
+		border: 2px solid black;
+	}
+	.telephone {
+		font-size:2em;
+		opacity: 0.8;
+		padding:5px;
+		color: #333333;
+		font-weight: bold;
+	}
+	a:hover {
+	text-decoration: none;
+	}
+	a:hover >.telephone,a:hover >.tel {
+		color: red;
+	}
+	
+	#menu-tile,#hotel-tile,#map-tile {
+	float: none;
+	text-align: center;
+	width: 325px;
+	}
+
+	.menu-categories {
+		float: none;
+		text-align: center;
+		width: 310px;
+		height: 175px;
+	}
+	.our-services {
+		float: none;
+		text-align: center;
+		width: 310px;
+		height: 200px;
+	}
+	.gallery {
+		float: none;
+		text-align: center;
+		width: 310px;
+		height: 175px;
+	}
+	.about-us {
+		width:90%;
+		text-align: center;
+	}
+	.para {
+		font-size: 1.4em;
+	}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.gallery {
+		float: none;
+		text-align: center;
+		width: 310px;
+		height: 205px;
+	}
+	.our-services {
+		height: 220px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-12 {
+    width: 90%;
+    float: none;
+	}
+	.menu-categories {
+		height: 145px;
+	}
+	.our-services {
+		height: 350px;
+	}
+
+	.gallery {
+		height: 230px;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+	}
+}
+
+li.dropdown>a:hover>span {
+		color: red;
+}
+a:hover h1,a:hover span,a:active h1,a:active span {
+	color: red;
+}
